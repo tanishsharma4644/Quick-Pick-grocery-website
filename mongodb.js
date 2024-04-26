@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect("mongodb://localhost:27017/anibuydb")
+mongoose.connect("mongodb+srv://tanishsharma4644:tanish123@cluster0.n7yenb6.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 .then( ()=> console.log('MongoDB connected'))
 .catch( ()=> console.log('MongoDB failed to connect'))
 
